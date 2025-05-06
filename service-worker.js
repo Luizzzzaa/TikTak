@@ -3,7 +3,7 @@ self.addEventListener('install', event => {
     caches.open('static-cache-v1').then(cache => {
       return cache.addAll([
         './',
-        './index.htm',
+        './index.html',
         './favicon.ico',
         './tiktok-loader.gif'
       ]);
